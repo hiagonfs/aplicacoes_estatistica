@@ -71,3 +71,11 @@ hist(median_dist4, main="Histograma da Mediana da Distribuição Normal", col="l
 
 hist(normal_media5, main="Histograma da Média Amostral da Distribuição Normal", col="lightsteelblue3", xlab= "Media Amostral", ylab= "Frequencia Relativa")
 hist(median_dist5, main="Histograma da Mediana da Distribuição Normal", col="lightsteelblue3", xlab= "Media Amostral", ylab= "Frequencia Relativa")
+
+#tabela <- data.frame(n = c(2,3)) Medias = c(normal_media1, normal_media2, normal_media3, normal_media4, normal_media5, Variancias = v(normal_var1, normal_var2, normal_var3, normal_var4, normal_var5))
+
+tabela <- data.frame( medias = c(normal_media1, normal_media2, normal_media3, normal_media4, normal_media5), 
+    variancias = c(normal_var1, normal_var2, normal_var3, normal_var4, normal_var5)
+)
+
+print(tabela)
