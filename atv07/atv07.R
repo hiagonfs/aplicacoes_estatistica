@@ -24,8 +24,6 @@ for( i in 1:5) {
   
 }
 
-soma_qui_quadrado_geral <- 0
+soma_qui_quadrado_geral <- sum(resultados_qui_quadrado)
 
-for (i in 1:5) {
-  soma_qui_quadrado_geral <- soma_qui_quadrado_geral + resultados_qui_quadrado[i]
-}
+calculo_probabilidade <- pchisq(3, soma_qui_quadrado_geral, lower.tail = FALSE, log.p = FALSE)
