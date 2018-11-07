@@ -1,5 +1,3 @@
-# Hiago Natan Fernandes de Sousa
-# Atv -07
 # Primeira questao
 
 array_binomias <- c(dbinom(0, 4, 2/5), dbinom(1, 4, 2/5), dbinom(2, 4, 2/5), dbinom(3, 4, 2/5), dbinom(4, 4, 2/5))
