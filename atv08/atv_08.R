@@ -4,8 +4,8 @@
 # 1 Questao
 
 read.csv("DadosCiaMB.csv", header=TRUE, sep=";", dec=",")
-attach("DadosCiaMB.csv")
+attach(DadosCiaMB)
 
 # Letra "a"
 
-plot(idade~salario, ylab = "Idade (em anos)", xlab = "Salário")
+plot(idade~salario, xlab = "Idade (em anos)", ylab = "Salário")
